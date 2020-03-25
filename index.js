@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.send('This is Prashant Bisht first ever nodejs project integrated with jenkins!');
 });
 
 var server = app.listen(3000, function () {
